@@ -4,8 +4,6 @@ services:
   # Expose port 8080 for Node app
   node:
     image: wengtad/nodedock:latest
-    build:
-      context: .
     ports:
       - 8080:8080
     volumes:
